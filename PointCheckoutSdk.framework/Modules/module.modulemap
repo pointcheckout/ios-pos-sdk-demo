@@ -1,0 +1,11 @@
+framework module PointCheckoutSdk {
+  umbrella header "PointCheckoutSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module PointCheckoutSdk.Swift {
+    header "PointCheckoutSdk-Swift.h"
+    requires objc
+}
