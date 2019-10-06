@@ -23,9 +23,9 @@ class ViewController: UIViewController, PaymentDelegate {
         
         
         
-        let apiKey: String = "PC_API_KEY"
-        let apiSecret: String = "PC_API_SECRET"
-        let googleAppID: String = "GOOGLE_APP_ID"
+        let apiKey: String = "1694d7b8776434c3"
+        let apiSecret: String = "QJD2qyI7HW4LwE0V6LFpOvdsI2D8lwOV"
+        let googleAppID: String = "1:23524645059:ios:8667a8069dcbc5952daa76"
         
         let client: PointCheckoutClient = PointCheckoutClient(environment: PointCheckoutEnvironment.TEST, apiKey: apiKey, apiSecret: apiSecret, googleAppID: googleAppID )
         
