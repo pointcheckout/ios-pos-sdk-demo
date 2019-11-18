@@ -8,14 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5B2A416FA9CABC43D108E3F1 /* Pods_iossdkdemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E17BAC5722FE43573375BA /* Pods_iossdkdemo.framework */; };
-		A027B7B42349DE0500BB51BC /* PointCheckoutSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A027B7B32349DE0500BB51BC /* PointCheckoutSdk.framework */; };
-		A027B7B52349DE0800BB51BC /* PointCheckoutSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A027B7B32349DE0500BB51BC /* PointCheckoutSdk.framework */; };
-		A027B7B62349DE0800BB51BC /* PointCheckoutSdk.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A027B7B32349DE0500BB51BC /* PointCheckoutSdk.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A0A1CEAD22CA3CDF00BF760D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A1CEAC22CA3CDF00BF760D /* AppDelegate.swift */; };
 		A0A1CEAF22CA3CDF00BF760D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A1CEAE22CA3CDF00BF760D /* ViewController.swift */; };
 		A0A1CEB422CA3CE100BF760D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A1CEB322CA3CE100BF760D /* Assets.xcassets */; };
 		A0A1CEB722CA3CE100BF760D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A1CEB522CA3CE100BF760D /* LaunchScreen.storyboard */; };
 		A0A1CEC322CA3D4000BF760D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A1CEC222CA3D4000BF760D /* Main.storyboard */; };
+		E5DBE21723833A61006D62CE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5DBE21623833A61006D62CE /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,7 +23,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				A027B7B62349DE0800BB51BC /* PointCheckoutSdk.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,7 +32,6 @@
 /* Begin PBXFileReference section */
 		02A74F656B91A8EA875C1D72 /* Pods-iossdkdemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iossdkdemo.release.xcconfig"; path = "Target Support Files/Pods-iossdkdemo/Pods-iossdkdemo.release.xcconfig"; sourceTree = "<group>"; };
 		83E17BAC5722FE43573375BA /* Pods_iossdkdemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iossdkdemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A027B7B32349DE0500BB51BC /* PointCheckoutSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PointCheckoutSdk.framework; sourceTree = "<group>"; };
 		A0A1CEA922CA3CDF00BF760D /* iossdkdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iossdkdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A1CEAC22CA3CDF00BF760D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0A1CEAE22CA3CDF00BF760D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +40,7 @@
 		A0A1CEB822CA3CE100BF760D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0A1CEC222CA3D4000BF760D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		CA230007A4FB8ED1AB3DA7B1 /* Pods-iossdkdemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iossdkdemo.debug.xcconfig"; path = "Target Support Files/Pods-iossdkdemo/Pods-iossdkdemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E5DBE21623833A61006D62CE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +48,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A027B7B52349DE0800BB51BC /* PointCheckoutSdk.framework in Frameworks */,
-				A027B7B42349DE0500BB51BC /* PointCheckoutSdk.framework in Frameworks */,
 				5B2A416FA9CABC43D108E3F1 /* Pods_iossdkdemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -72,7 +67,6 @@
 		A017FE7A22CA3DCF00C1A11D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A027B7B32349DE0500BB51BC /* PointCheckoutSdk.framework */,
 				83E17BAC5722FE43573375BA /* Pods_iossdkdemo.framework */,
 			);
 			name = Frameworks;
@@ -83,6 +77,7 @@
 			children = (
 				A0A1CEAB22CA3CDF00BF760D /* iossdkdemo */,
 				A0A1CEAA22CA3CDF00BF760D /* Products */,
+				E5DBE21623833A61006D62CE /* Images.xcassets */,
 				A017FE7A22CA3DCF00C1A11D /* Frameworks */,
 				17E7AB02A0EAB86C965754DF /* Pods */,
 			);
@@ -171,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0A1CEC322CA3D4000BF760D /* Main.storyboard in Resources */,
+				E5DBE21723833A61006D62CE /* Images.xcassets in Resources */,
 				A0A1CEB722CA3CE100BF760D /* LaunchScreen.storyboard in Resources */,
 				A0A1CEB422CA3CE100BF760D /* Assets.xcassets in Resources */,
 			);
@@ -366,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = Z6GLPS46KY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -378,7 +375,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pointcheckout.iossdkdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -389,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = Z6GLPS46KY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -401,7 +399,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.pointcheckout.iossdkdemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

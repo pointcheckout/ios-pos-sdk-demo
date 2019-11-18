@@ -6,7 +6,5 @@ target 'iossdkdemo' do
   use_frameworks!
 
   # Pods for iossdkdemo
-  pod 'Firebase/Core'
-  pod 'Firebase/Auth'
-  pod 'Firebase/Firestore'
+  pod 'PointCheckoutSdk'
 end
